@@ -140,6 +140,40 @@
                     <li>Item 3</li>
                 </ul>
             </section>
-    </main>
+            <section id="order">
+                <h2>Order</h2>
+                <p>A appliquer sur les enfants directs d'une balise en display flex. Par défaut, tous les élément sont en
+                    order 0.</p>
+                <p>La 4ème li viendra se placer en 1er</p>
+                <ol>
+                    <li>item n°1</li>
+                    <li>item n°2</li>
+                    <li>item n°3</li>
+                    <li>item n°4 qui vient en 1er</li>
+                    <li>item n°5</li>
+                </ol>
+            </section>
+    
+            <section id="wrap">
+                <h2>Flex-wrap</h2>
+                <p>
+                    Par défaut, un container en display flex va agglutiner ses enfants direct sur une seule et même ligne.
+                    <br>
+                    Chaque li fait 30% de la largeur. On souhaite 3 éléments par ligne avec de l'espace entre eux.
+                    <br>
+                    Pour autoriser que les éléments retournent à la ligne quand la somme de leur largeur atteint 100% de la
+                    largeur de la largeur du parent, il va falloir passer en <code>flex-wrap:wrap</code>
+                </p>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                    <li>Item 6</li>
+                </ul>
+            </section>
+    
+        </main>    
 </body>
 </html>

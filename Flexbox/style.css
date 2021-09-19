@@ -139,6 +139,35 @@ padding-top: 60px;
     width: 30%;
     text-align: center;
   }
-   
+/************** #order *************/
+#order ol {
+    display: flex;
+  }
+  
+  #order li {
+    background: rgb(70, 190, 211);
+    margin: 20px;
+    padding: 20px;
+  }
+  #order li:nth-of-type(4) {
+    background: rgb(49, 100, 182);
+  
+    order: -1;
+  }
+  
+  /********** #wrap *************/
+  
+  #wrap ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #wrap li {
+    background: rgb(70, 190, 211);
+    width: 30%;
+    margin-bottom: 20px;
+  }
+     
   
   
