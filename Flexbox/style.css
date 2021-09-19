@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate&family=Work+Sans:wght@400;700&display=swap");
+/******************
+CSS GLOBALE
+*******************/
+/*************************
+* CSS GLOBAL
+*************************/
+
+body {
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    line-height: 160%;
+  }
+  
+  h1,
+  h2 {
+    font-family: "Fascinate", cursive;
+  }
+  
+  code {
+    background: rgb(228, 228, 228);
+    color: rgb(148, 27, 27);
+    padding: 3px 5px;
+    border-radius: 4px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  /*************************
+  * CSS PAR SECTION
+  *************************/
+  
+  header {
+    background-image: linear-gradient(
+      to top right,
+      rgb(49, 100, 182),
+      rgb(70, 190, 211)
+    );
+    padding: 200px 30px;
+    text-align: center;
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 50px;
+  }
+  
+  /************* nav *************/
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(70, 190, 211);
+    padding: 10px 30px;
+  }
+  
+  nav #logo {
+    background: rgb(49, 100, 182);
+    padding: 15px 30px;
+    border-radius: 100%;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+/************* SECTION MAIN *************/  
+main{
+    padding: 50px, 30px;
+}
+/************* Section Display *************/
+#display div #containerFlex {
+    display: flex;
+}
+/************* Section Alignement *************/
+#alignement #horizontal, 
+#alignement #vertical {
+    display: flex;
+    justify-content: space-between;
+}
+
+#alignement #vertical {
+align-items: baseline;
+}
+
+#alignement #vertical li:nth-of-type(2){
+padding-top: 60px;
+}
+
+#alignement #horizontal li,
+#alignement #vertical li {
+    width: 25%;
+    background: rgb(70, 190, 211);
+    padding: 20px;
+  }
+
+  #alignement .bloc {
+    border: 2px solid rgb(70, 190, 211);
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+/********** #direction *********/
+#direction .row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  #direction .row.reverse {
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+  }
+  #direction .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #direction .column.reverse {
+    flex-direction: column-reverse;
+  }
+  
+  #direction ul li {
+    border: 2px solid rgb(70, 190, 211);
+    width: 30%;
+    text-align: center;
+  }
+   
+  
+  
